@@ -36,3 +36,28 @@ function loadViews($name)
     require($path);
   } else echo 'No view exist named ' . $name;
 }
+
+
+/**
+ * @param mixed $value
+ * @return void
+ *
+ */
+function inspect($value)
+{
+  echo '<Pre>';
+  var_dump($value);
+  echo '</pre>';
+}
+
+/**
+ * @param mixed $value
+ * @return void
+ *
+ */
+function inspectAndDie($value)
+{
+  echo '<Pre>';
+  var_dump($value);
+  echo '</pre>';
+}

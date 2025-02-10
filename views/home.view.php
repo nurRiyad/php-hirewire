@@ -196,5 +196,6 @@ loadPartials('banner');
 </section>
 
 <?php
-loadPartials('footer')
+loadPartials('bottom');
+loadPartials('footer');
 ?>
