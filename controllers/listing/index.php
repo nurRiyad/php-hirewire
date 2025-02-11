@@ -1,0 +1,2 @@
+<?php
+loadViews('listing/home');
